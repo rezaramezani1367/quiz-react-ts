@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply w-full  py-2.5 text-center px-4 border rounded-full  transition-all duration-150 
+    disabled:cursor-default my-1 shadow border-slate-400;
+}
+.btn-submit {
+  @apply py-1.5 capitalize text-center px-4 bg-blue-600 border text-white rounded-full hover:bg-blue-800 transition-all duration-150 my-2 font-bold;
+}
+.btn-start {
+  @apply py-2 uppercase text-center px-6 bg-green-600 border text-white rounded-full hover:bg-green-800 transition-all duration-150 my-2 font-bold;
+}
+
+.width-main{
+  @apply w-full md:w-4/5 lg:w-3/5
+}
